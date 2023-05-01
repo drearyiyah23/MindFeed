@@ -1,0 +1,90 @@
+
+  
+  
+  
+
+
+#container
+  height: 60vh
+  .container-1
+    display: grid
+    grid-template-columns: 1fr 2fr
+    place-items: center
+    .shs-banner
+      display: grid
+      grid-template-rows: 1fr 1fr
+      place-items: center
+      gap: 50px
+
+    .shs-banner2
+      width: 100%
+      
+      .school-photo
+        width: 100%
+        height: 60vh
+        object-fit: cover
+
+main
+
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  h2
+    .orange
+      display: flex
+      border: 1px solid orange
+      justify-content: center
+    .red
+      display: flex
+      border: 1px solid red
+  .shs
+    display: flex
+    flex-direction: column
+    text-align: center
+    align-items: center
+    justify-content: center
+    gap: 70px   
+    .shs-template 
+      position: relative
+      display: grid
+      grid-template-columns: 1fr 1fr
+      padding: 50px
+      background-color: #fff8f8
+      .shs-text
+        z-index: 2
+        display: grid
+        grid-template-rows: 1fr 3fr
+        .text 
+          font-size: 30px
+          font-weight: 600
+          text-align: center
+          margin: 10px
+        .up
+        .down
+          
+      .shs-pic
+        z-index: 2
+        width: 100%
+        img
+          width: 100%
+          
+          height: 40vh
+          object-fit: fill
+      .grey-right
+        position: absolute
+        background-color: #D9D9D9
+        top: 0
+        right: 2%
+        z-index: 1
+        padding: 245px 0 245px 1000px
+      .grey-left
+        position: absolute
+        background-color: #D9D9D9
+        top: 0
+        left: 2%
+        z-index: 1
+        padding: 245px 0 245px 1000px
+      
+
+

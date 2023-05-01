@@ -1,1 +1,91 @@
-/*# sourceMappingURL=strands.css.map */
+#container {
+  height: 60vh;
+}
+#container .container-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+}
+#container .container-1 .shs-banner {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  gap: 50px;
+}
+#container .container-1 .shs-banner2 {
+  width: 100%;
+}
+#container .container-1 .shs-banner2 .school-photo {
+  width: 100%;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main h2 .orange {
+  display: flex;
+  border: 1px solid orange;
+  justify-content: center;
+}
+main h2 .red {
+  display: flex;
+  border: 1px solid red;
+}
+main .shs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+main .shs .shs-template {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  background-color: #fff8f8;
+}
+main .shs .shs-template .shs-text {
+  z-index: 2;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+main .shs .shs-template .shs-text .text {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+}
+main .shs .shs-template .shs-pic {
+  z-index: 2;
+  width: 100%;
+}
+main .shs .shs-template .shs-pic img {
+  width: 100%;
+  height: 40vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+main .shs .shs-template .grey-right {
+  position: absolute;
+  background-color: #D9D9D9;
+  top: 0;
+  right: 2%;
+  z-index: 1;
+  padding: 245px 0 245px 1000px;
+}
+main .shs .shs-template .grey-left {
+  position: absolute;
+  background-color: #D9D9D9;
+  top: 0;
+  left: 2%;
+  z-index: 1;
+  padding: 245px 0 245px 1000px;
+}/*# sourceMappingURL=strands.css.map */

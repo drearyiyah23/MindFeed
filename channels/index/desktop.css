@@ -1,7 +1,3 @@
-ul:has(.hilight:hover) li:not(.hilight:hover) {
-  opacity: 0.5;
-}
-
 @media only screen and (min-width: 899px) {
   header {
     display: grid;

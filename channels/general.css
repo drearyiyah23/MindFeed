@@ -1,15 +1,13 @@
 @media screen and (min-width: 900px) {
   #container {
     position: sticky;
-    top: 17px;
-    height: 50vh;
     z-index: -1;
-    background-color: blue;
+    background-color: lightblue;
   }
   #container .container-1 {
     position: sticky;
     height: 60vh;
-    background-color: blue;
+    background-color: grey;
   }
   #container .container-1 .banner {
     height: 88vh;
