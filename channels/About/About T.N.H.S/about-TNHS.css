@@ -1,3 +1,40 @@
+#container {
+  height: 60vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a3a3a3;
+}
+main .about {
+  display: flex;
+  max-width: 80rem;
+  margin: 0 10rem 8rem 10rem;
+  padding: 3rem 5rem 3rem 5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
 main .about .box {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .about .box .text {
+  font-family: "Times New Roman", Times, serif;
+}
+main .about .box .up {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 50px 10px 50px;
+}
+main .about .box .down {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #ffffff;
+  padding: 50px;
 }/*# sourceMappingURL=about-TNHS.css.map */
