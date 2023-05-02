@@ -1,10 +1,21 @@
 #container {
-  height: 60vh;
+  height: 75vh;
 }
 #container .container-1 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  position: relative;
+  height: 75vh;
+  grid-template-columns: 1.5fr 2.5fr;
   place-items: center;
+}
+#container .container-1 .transparent {
+  background-color: rgba(217, 217, 217, 0.2941176471);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 3;
 }
 #container .container-1 .shs-banner {
   display: grid;
@@ -17,9 +28,9 @@
 }
 #container .container-1 .shs-banner2 .school-photo {
   width: 100%;
-  height: 60vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 75vh;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 main {
@@ -38,6 +49,7 @@ main h2 .red {
   border: 1px solid red;
 }
 main .shs {
+  position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -50,6 +62,7 @@ main .shs .shs-template {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 50px;
+  gap: 50px;
   background-color: #fff8f8;
 }
 main .shs .shs-template .shs-text {
@@ -58,7 +71,7 @@ main .shs .shs-template .shs-text {
   grid-template-rows: 1fr 3fr;
 }
 main .shs .shs-template .shs-text .text {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
   text-align: center;
   margin: 10px;
@@ -79,7 +92,7 @@ main .shs .shs-template .grey-right {
   top: 0;
   right: 2%;
   z-index: 1;
-  padding: 245px 0 245px 1000px;
+  padding: 210px 0 210px 1000px;
 }
 main .shs .shs-template .grey-left {
   position: absolute;
@@ -87,5 +100,5 @@ main .shs .shs-template .grey-left {
   top: 0;
   left: 2%;
   z-index: 1;
-  padding: 245px 0 245px 1000px;
+  padding: 210px 0 210px 1000px;
 }/*# sourceMappingURL=strands.css.map */

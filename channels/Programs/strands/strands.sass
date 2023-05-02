@@ -5,11 +5,21 @@
 
 
 #container
-  height: 60vh
+  height: 75vh
   .container-1
     display: grid
-    grid-template-columns: 1fr 2fr
+    position: relative
+    height: 75vh
+    grid-template-columns: 1.5fr 2.5fr
     place-items: center
+    .transparent
+      background-color: #d9d9d94b
+      height: 100%
+      width: 100%
+      top: 0
+      left: 0
+      position: absolute
+      z-index: 3
     .shs-banner
       display: grid
       grid-template-rows: 1fr 1fr
@@ -21,8 +31,8 @@
       
       .school-photo
         width: 100%
-        height: 60vh
-        object-fit: cover
+        height: 75vh
+        object-fit: fill
 
 main
 
@@ -39,24 +49,27 @@ main
       display: flex
       border: 1px solid red
   .shs
+    position: relative
     display: flex
     flex-direction: column
     text-align: center
     align-items: center
     justify-content: center
     gap: 70px   
+    
     .shs-template 
       position: relative
       display: grid
       grid-template-columns: 1fr 1fr
       padding: 50px
+      gap: 50px
       background-color: #fff8f8
       .shs-text
         z-index: 2
         display: grid
         grid-template-rows: 1fr 3fr
         .text 
-          font-size: 30px
+          font-size: 28px
           font-weight: 600
           text-align: center
           margin: 10px
@@ -68,7 +81,6 @@ main
         width: 100%
         img
           width: 100%
-          
           height: 40vh
           object-fit: fill
       .grey-right
@@ -77,14 +89,14 @@ main
         top: 0
         right: 2%
         z-index: 1
-        padding: 245px 0 245px 1000px
+        padding: 210px 0 210px 1000px
       .grey-left
         position: absolute
         background-color: #D9D9D9
         top: 0
         left: 2%
         z-index: 1
-        padding: 245px 0 245px 1000px
+        padding: 210px 0 210px 1000px
       
 
 
