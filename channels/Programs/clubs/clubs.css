@@ -1,1 +1,15 @@
-/*# sourceMappingURL=clubs.css.map */
+@media screen and (min-width: 900px) {
+  main {
+    height: 200vh;
+  }
+  main #accordion-1 {
+    margin: 0 20%;
+  }
+  main #accordion-1 .accordion-item {
+    border: 1px solid white;
+  }
+  main #accordion-1 .accordion-item .accordion-header .accordion-button {
+    border: 0;
+    background-color: white;
+  }
+}/*# sourceMappingURL=clubs.css.map */
