@@ -4,9 +4,7 @@
   }
   main #accordion-1 {
     margin: 0 20%;
-  }
-  main #accordion-1 .accordion-item {
-    border: 1px solid white;
+    border-color: red;
   }
   main #accordion-1 .accordion-item .accordion-header .accordion-button {
     border: 0;
