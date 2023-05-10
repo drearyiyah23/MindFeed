@@ -1,1 +1,42 @@
-/*# sourceMappingURL=Facilities.css.map */
+#container {
+  height: 60vh;
+}
+#container .container-1 {
+  height: 60vh;
+  place-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+main .Facilities-container {
+  display: flex;
+  margin: 20px;
+}
+main .Facilities-container .facilities {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 350px;
+  background-color: #ffadad;
+}
+main .Facilities-container .facilities .facilities-1 {
+  display: flex;
+  margin: 30px 30px 0 30px;
+  width: 340px;
+  height: 200px;
+}
+main .Facilities-container .facilities .facilities-1 img {
+  width: 88%;
+  height: 80%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+main .Facilities-container .facilities .facilities-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=Facilities.css.map */

@@ -11,10 +11,16 @@ body
 	width: 300px
 	position: absolute
 	left: 90px
-	background-color: #da45456b
 	
+
+#container
+	height: 60vh
+	.container-1
+		height: 60vh
+		place-items: center
 main
-	height: 200vh
+	margin: 20px 0 0 0
+	height: 80vh
 	.accordion
 		position: relative	
 		.accordion-item
@@ -37,17 +43,21 @@ main
 					justify-content: left
 				.no1
 					@include grade()
+					background-color: #45da456b
 				.no2
 					top: 70px
 					@include grade()
+					background-color: #cbda456b
 				.no3
 					top: 140px
 					@include grade()
+					background-color: #da45456b
 				.no4
 					top: 210px
 					@include grade()
+					background-color: #4568da6b
 			.accordion-body
-				max-height: 50vh
+				max-height: 70vh
 				overflow: auto
 				scrollbar-color: red orange
 				scrollbar-width: thin
@@ -64,4 +74,6 @@ main
 					height: 300px
 				.mar
 					margin-top: 400px
+				.mar8
+					margin-top: 740px
 							

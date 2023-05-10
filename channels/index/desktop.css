@@ -119,4 +119,66 @@
   header .nav-toggle-label {
     display: none;
   }
+  .frame-red {
+    background-color: white;
+    padding-bottom: 20px;
+  }
+  .frame-red .contactus-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .frame-red .contactus-3 .contactus-3-1 {
+    margin-left: 100px;
+  }
+  .frame-red .contactus-3 .contactus-3-1 .form-group {
+    margin-bottom: 20px;
+  }
+  .frame-red .contactus-3 .contactus-3-1 .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .frame-red .contactus-3 .contactus-3-1 .form-group input[type=text] {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .frame-red .contactus-3 .contactus-3-1 .form-group input[type=email] {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .frame-red .contactus-3 .contactus-3-1 .form-group textarea {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  .frame-red .contactus-3 .contactus-3-1 .form-group button.send {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .frame-red .contactus-3 .contactus-3-1 .form-group button:hover {
+    background-color: #c5c5c5;
+  }
+  .frame-red .contactus-3 .contactus-3-2 .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .frame-red .contactus-3 .contactus-3-2 .hours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=desktop.css.map */

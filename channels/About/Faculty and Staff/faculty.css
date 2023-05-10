@@ -9,8 +9,17 @@ body {
   font-weight: 400;
 }
 
+#container {
+  height: 60vh;
+}
+#container .container-1 {
+  height: 60vh;
+  place-items: center;
+}
+
 main {
-  height: 200vh;
+  margin: 20px 0 0 0;
+  height: 80vh;
 }
 main .accordion {
   position: relative;
@@ -38,14 +47,14 @@ main .accordion .accordion-item .accordion-header .no1 {
   width: 300px;
   position: absolute;
   left: 90px;
-  background-color: rgba(218, 69, 69, 0.4196078431);
+  background-color: rgba(69, 218, 69, 0.4196078431);
 }
 main .accordion .accordion-item .accordion-header .no2 {
   top: 70px;
   width: 300px;
   position: absolute;
   left: 90px;
-  background-color: rgba(218, 69, 69, 0.4196078431);
+  background-color: rgba(203, 218, 69, 0.4196078431);
 }
 main .accordion .accordion-item .accordion-header .no3 {
   top: 140px;
@@ -59,10 +68,10 @@ main .accordion .accordion-item .accordion-header .no4 {
   width: 300px;
   position: absolute;
   left: 90px;
-  background-color: rgba(218, 69, 69, 0.4196078431);
+  background-color: rgba(69, 104, 218, 0.4196078431);
 }
 main .accordion .accordion-item .accordion-body {
-  max-height: 50vh;
+  max-height: 70vh;
   overflow: auto;
   scrollbar-color: red orange;
   scrollbar-width: thin;
@@ -80,4 +89,7 @@ main .accordion .accordion-item .accordion-body img {
 }
 main .accordion .accordion-item .accordion-body .mar {
   margin-top: 400px;
+}
+main .accordion .accordion-item .accordion-body .mar8 {
+  margin-top: 740px;
 }/*# sourceMappingURL=faculty.css.map */
