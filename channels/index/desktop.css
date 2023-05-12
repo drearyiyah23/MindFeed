@@ -91,11 +91,11 @@
     grid-template-columns: 160px;
   }
   header nav .op:focus-within .admission {
-    margin: 5px 620px 0px 0;
+    margin: 5px 590px 0px 0;
     padding: 20px 0 10px 0;
   }
   header nav .op:focus-within .programs {
-    margin: 5px 410px 0 0;
+    margin: 5px 390px 0 0;
     padding: 20px 0 10px 0;
   }
   header nav .op:focus-within .about {

@@ -1,14 +1,35 @@
 @media screen and (min-width: 900px)
   main
-    height: 200vh
-    
-    #accordion-1
-      margin: 0 20%
-      border-color: red
-      .accordion-item
-        .accordion-header
-          .accordion-button
-            border: 0
-            background-color: white
-            
-      
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    margin: 5%
+    .Facilities-head
+      display: grid
+      grid-template-columns: 1fr 1fr
+    .Facilities-container
+      display: flex
+      justify-content: center
+      flex-wrap: wrap
+      margin: 20px
+      gap: 20px
+      .facilities
+        display: flex
+        flex-direction: column
+        width: 180px
+        height: 180px
+        background-color: #ffadad
+        .facilities-1
+          display: flex
+          margin: 15px
+        
+          img
+            width: 150px
+            height: 150px
+            object-fit: fill
+        .facilities-2
+          display: flex
+          justify-content: center
+          align-items: center
+              
+        

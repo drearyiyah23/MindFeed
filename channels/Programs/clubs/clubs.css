@@ -1,13 +1,41 @@
 @media screen and (min-width: 900px) {
   main {
-    height: 200vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
   }
-  main #accordion-1 {
-    margin: 0 20%;
-    border-color: red;
+  main .Facilities-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
-  main #accordion-1 .accordion-item .accordion-header .accordion-button {
-    border: 0;
-    background-color: white;
+  main .Facilities-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+  }
+  main .Facilities-container .facilities {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 180px;
+    background-color: #ffadad;
+  }
+  main .Facilities-container .facilities .facilities-1 {
+    display: flex;
+    margin: 15px;
+  }
+  main .Facilities-container .facilities .facilities-1 img {
+    width: 150px;
+    height: 150px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  main .Facilities-container .facilities .facilities-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=clubs.css.map */

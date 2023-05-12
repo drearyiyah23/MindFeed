@@ -1,10 +1,12 @@
 @media screen and (min-width: 900px) {
   #container {
+    position: -webkit-sticky;
     position: sticky;
     z-index: -1;
     background-color: lightblue;
   }
   #container .container-1 {
+    position: -webkit-sticky;
     position: sticky;
     height: 60vh;
     background-color: grey;
