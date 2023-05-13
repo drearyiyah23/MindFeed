@@ -1,0 +1,35 @@
+main
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    background-color: #ffdede11
+    padding: 40px
+    .news-flex
+        display: flex
+        border: solid 5px #87d0e2
+        border-radius: 4%
+        justify-content: center
+        align-items: center
+        background-color: #dbdbdb
+        height: auto
+        width: 45%  
+        margin: 20px
+        .news-card
+            display: grid
+            grid-template-rows: 1fr 1fr
+            height: 80vh
+            .news-pic
+                
+                display: flex
+                justify-content: center
+                height: 430px
+                img
+                    border-radius: 4%
+                    margin-top: 20px
+                    width: 430px
+                    object-fit: cover
+            .news-text
+                display: flex
+                text-align: center
+                height: auto
+                margin: 50px 0 40px 0

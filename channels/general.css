@@ -1,12 +1,13 @@
 @media screen and (min-width: 900px) {
   #container {
     position: sticky;
+    height: 70vh;
     z-index: -1;
     background-color: lightblue;
   }
   #container .container-1 {
     position: sticky;
-    height: 60vh;
+    height: 70vh;
     background-color: grey;
   }
   #container .container-1 .banner {
@@ -15,21 +16,21 @@
   }
   #container .container-1 .banner .first {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     -o-object-fit: cover;
        object-fit: cover;
   }
   #container .container-1 .banner2 {
     display: flex;
     position: absolute;
-    top: 15rem;
+    top: 18rem;
     justify-content: center;
     font-weight: 800;
     color: #fff8f8;
     font-family: "Trirong";
     font-style: italic;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 90px;
     line-height: 71px;
     text-align: center;
     width: 100%;
