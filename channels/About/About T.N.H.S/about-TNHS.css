@@ -1,13 +1,14 @@
 #container {
   height: 60vh;
 }
-#container main {
+
+main {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #a3a3a3;
 }
-#container main .about {
+main .about {
   display: flex;
   max-width: 80rem;
   margin: 0 10rem 8rem 10rem;
@@ -17,21 +18,21 @@
   flex-direction: column;
   gap: 5rem;
 }
-#container main .about .box {
+main .about .box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#container main .about .box .text {
+main .about .box .text {
   font-family: "Times New Roman", Times, serif;
 }
-#container main .about .box .up {
+main .about .box .up {
   font-size: 30px;
   font-weight: 700;
   margin: 0 50px 10px 50px;
 }
-#container main .about .box .down {
+main .about .box .down {
   font-size: 20px;
   font-weight: 500;
   background-color: #ffffff;

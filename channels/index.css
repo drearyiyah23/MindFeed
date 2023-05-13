@@ -18,9 +18,59 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+  #container .container-1 .logos {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    justify-content: center;
+    background-color: white;
+    font-weight: 800;
+    color: #fff8f8;
+    font-family: "Trirong";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 71px;
+    text-align: center;
+    width: auto;
+    border-radius: 100%;
+  }
+  #container .container-1 .logos img {
+    width: 100px;
+  }
+  #container .container-1 .name {
+    display: flex;
+    position: absolute;
+    top: 22%;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff8f8;
+    font-family: "Trirong";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 71px;
+    text-align: center;
+    width: 100%;
+  }
+  #container .container-1 .slogan {
+    display: flex;
+    position: absolute;
+    top: 47%;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff8f8;
+    font-family: "Trirong";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 71px;
+    text-align: center;
+    width: 100%;
+  }
   #container .container-1 .banner2 {
     display: flex;
-    width: 98.5vw;
+    width: 100vw;
     position: absolute;
     justify-content: center;
     font-family: "Trirong";

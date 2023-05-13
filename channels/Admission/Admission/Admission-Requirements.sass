@@ -1,50 +1,85 @@
+@mixin font()
+    font-family: 'Times New Roman', Times, serif
+    font-size: 25px
+    
+#container
+    top: 17px
+    height: 80vh
+    z-index: -1
+    .container-1
+      position: sticky
+      height: 80vh
+      .banner
+        height: 88vh
+        z-index: 1
+        .first
+          height: 100vh
+          object-fit: cover
+.kto
+    display: flex
+    justify-content: center
+    font-family: 'Trirong'
+    font-style: normal
+    font-weight: 800
+    font-size: 40px
+    line-height: 40px
+    background-color: #b8252c
+    color: #fff8f8
+    padding: 30px 0 30px 0
 main
     display: flex
     justify-content: center
-    align-items: center
-    margin-top: 77px 
-    background-color: #949494
+    align-items: center 
+    background-color: #cdcdcd
     
     div
         display: grid
         grid-template-columns: 1fr1fr
         background-color: #ffffff
         margin: 50px
-        ul
+        ul  
+            
+            
             display: grid
             grid-template-columns: 1fr1fr1fr1fr
             place-items: center
             
             div
-                font-size: 20px
+                @include font()
+                font-size: 35px
                 font-weight: 700
                 
                 div
+                    
                     border-radius: 5px
                 .grade-7 
-                    width: 55rem
+                    
+                    width: 88rem
                     border: 1px solid lime
                 .grade-11
-                    width: 320px
+                    width: 32rem
                     border: 1px solid violet
                 .grade-12
-                    width: 325px
+                    width: 32rem
                     border: 1px solid orange
                 .grade-other12
-                    width: 545px
+                    width: 52rem
                     border: 1px solid orange
                 .grade-other
-                    width: 320px
+                    width: 32rem
                     border: 1px solid brown
 
             .margin
                 margin-bottom: 50px
             li
+                margin: 5px
+                @include font()
+                font-size: 25px
                 width: 70%
-                font-size: 18px
                 font-weight: 600
 
         div
+            @include font()
             display: grid
             grid-template-columns: 1fr1fr
             place-items: center
