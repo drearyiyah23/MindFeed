@@ -1,1 +1,26 @@
-/*# sourceMappingURL=school-map.css.map */
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main .school-map {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+main .school-map img {
+  width: 70vw;
+}
+main .containers {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+  width: calc(70vw + 1rem);
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border: solid 2px red;
+}
+main .containers .bldg-map img {
+  width: 65vw;
+  height: 500px;
+}/*# sourceMappingURL=school-map.css.map */

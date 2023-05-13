@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../../index/aphone-header.css">
   <link rel="stylesheet" href="../../index/desktop.css">
   <link rel="stylesheet" href="../../general.css">
+  <link rel="stylesheet" href="school-map.css">
   <title>Document</title>
 </head>
 <body>
@@ -59,7 +60,24 @@
     </div>
   </div>
   <main>
-    <h1>COMING SOON</h1>
+    <div class="school-map">
+        <img src="../../image/floorplan/Whole-Map.png" alt="school map" srcset="">
+    </div>
+    <br><br><br><br>
+    <h1>Greade Building</h1>
+    <div class="containers">
+        <div onclick="side_slide(-1)" class="slide-left">click left</div>
+        <div class="images">
+            <div class="bldg-map"><img src="../../image/floorplan/grade-7.jpg" alt="grade 7 math Bldg" srcset=""></div>
+            <div class="bldg-map"><img src="../../image/floorplan/grade-7-2.jpg" alt="grade 7 dep-ed" srcset=""></div>
+            <div class="bldg-map"><img src="../../image/floorplan/grade-8.jpg" alt="grade 8 Bldg" srcset=""></div>
+            <div class="bldg-map"><img src="../../image/floorplan/grade-9.jpg" alt="grade 9 Bldg" srcset=""></div>
+            <div class="bldg-map"><img src="../../image/floorplan/grade-10.jpg" alt="grade 10 Bldg" srcset=""></div>
+            <div class="bldg-map"><img src="../../image/floorplan/shs.jpg" alt="SHS shs Bldg" srcset=""></div>
+        </div>
+        <div onclick="side_slide(-1)" class="slide-left">click right</div>
+    </div>
   </main>
+  <script src="../../js/schoolmap.js"></script>
 </body>
 </html>

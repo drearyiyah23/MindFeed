@@ -81,7 +81,7 @@ h3, p {
 }
 
 .border {
-  background-color: hsl(0deg, 100%, 92%);
+  background-color: hsl(0, 100%, 92%);
   border-radius: 10px;
   border: 4px solid rgb(255, 0, 0);
   transition: 500ms;
@@ -99,7 +99,7 @@ h3, p {
 }
 
 .intro {
-  color: hsl(0deg, 95%, 23%);
+  color: hsl(0, 95%, 23%);
   font-style: oblique;
 }
 
