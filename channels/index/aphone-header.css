@@ -49,7 +49,7 @@ header {
   text-align: center;
   position: fixed;
   z-index: 9;
-  top: 17px;
+  top: 30px;
   width: 100vw;
   padding: 10px 0 10px;
 }
@@ -179,14 +179,15 @@ nav a {
     position: fixed;
     top: 0;
     background-color: #b8252c;
-    height: 17px;
+    height: 30px;
     width: 100vw;
+    color: white;
     /* Phone Style Start */
   }
   .timer .timer-left {
     display: flex;
     flex-wrap: nowrap;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     font-family: "Times New Roman", Times, serif;
   }
@@ -204,13 +205,15 @@ nav a {
     position: relative;
     top: 0;
     margin: 0;
-    height: 16px;
+    height: 30px;
     width: 16px;
     text-decoration: none;
   }
   .timer .timer-right a svg {
     position: absolute;
     top: 0;
+    height: 30px;
+    width: 20px;
   }
   .timer .timer-right .fb {
     right: 70px;
