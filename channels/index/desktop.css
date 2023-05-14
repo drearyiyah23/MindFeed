@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @media only screen and (min-width: 899px) {
   header {
     display: grid;
@@ -17,7 +18,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 32px;
-    line-height: 55px;
+    line-height: 60px;
   }
   header .topbar .top-left2:hover {
     opacity: 70%;
@@ -74,6 +75,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: 35px;
+    content: "\f229";
     font-size: 24px;
   }
   header nav .drop-down {
@@ -121,8 +123,16 @@
     display: none;
   }
   .frame-red {
+    margin-top: 5%;
+    bottom: 0;
     background-color: white;
     padding-bottom: 20px;
+  }
+  .frame-red .contactus-1 {
+    font-weight: 700;
+  }
+  .frame-red .contactus-2 {
+    font-weight: 700;
   }
   .frame-red .contactus-3 {
     display: grid;
@@ -135,6 +145,8 @@
     margin-bottom: 20px;
   }
   .frame-red .contactus-3 .contactus-3-1 .form-group label {
+    font-size: 20px;
+    font-weight: 700;
     display: block;
     margin-bottom: 5px;
   }
@@ -159,6 +171,7 @@
   }
   .frame-red .contactus-3 .contactus-3-1 .form-group button.send {
     display: block;
+    font-size: 30px;
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -170,16 +183,31 @@
   .frame-red .contactus-3 .contactus-3-1 .form-group button:hover {
     background-color: #c5c5c5;
   }
+  .frame-red .contactus-3 .contactus-3-2 {
+    display: grid;
+  }
   .frame-red .contactus-3 .contactus-3-2 .contact-info {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .frame-red .contactus-3 .contactus-3-2 .contact-info h3 {
+    font-size: 37px;
+    font-weight: 700;
   }
   .frame-red .contactus-3 .contactus-3-2 .hours {
+    font-size: 30px;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+  .frame-red .contactus-3 .contactus-3-2 .hours h3 {
+    font-size: 37px;
+    font-weight: 700;
   }
 }/*# sourceMappingURL=desktop.css.map */

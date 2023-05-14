@@ -4,7 +4,7 @@
 
 // ul:has(.hilight:hover) li:not(.hilight:hover)
 //   opacity: 0.5
-  
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css")
 @mixin flex-center()
   display: flex
   align-items: center
@@ -48,7 +48,7 @@
         font-style: normal
         font-weight: 800
         font-size: 32px
-        line-height: 55px
+        line-height: 60px
 
         &:hover
           opacity: 70%
@@ -93,6 +93,7 @@
               transform: scale(1, 1)
       .top-font
         @include top-font()
+        content: "\F229"
         font-size: 24px
         
       .drop-down
@@ -131,8 +132,14 @@
       display: none
 
   .frame-red 
+    margin-top: 5%
+    bottom: 0
     background-color: white
     padding-bottom: 20px
+    .contactus-1
+      font-weight: 700
+    .contactus-2
+      font-weight: 700
     .contactus-3
       display: grid
       grid-template-columns: 1fr 1fr
@@ -141,6 +148,8 @@
         .form-group 
           margin-bottom: 20px 
           label 
+            font-size: 20px
+            font-weight: 700
             display: block 
             margin-bottom: 5px 
           input[type="text"]
@@ -161,7 +170,8 @@
             resize: none
           button 
             &.send 
-              display: block 
+              display: block
+              font-size: 30px 
               width: 100% 
               padding: 10px 
               background-color: #4CAF50 
@@ -172,13 +182,24 @@
             &:hover 
               background-color: #c5c5c5 
       .contactus-3-2
+        display: grid
         .contact-info
           display: flex
           align-items: center
           justify-content: center
           flex-direction: column
+          font-size: 30px
+          font-weight: 700
+          h3
+            font-size: 37px
+            font-weight: 700
         .hours
+          font-size: 30px
+          font-weight: 700
           display: flex
           align-items: center
           justify-content: center
           flex-direction: column
+          h3
+            font-size: 37px
+            font-weight: 700

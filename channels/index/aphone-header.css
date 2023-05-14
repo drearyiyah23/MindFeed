@@ -201,6 +201,29 @@ nav a {
     justify-content: right;
     padding-right: 20px;
   }
+  .timer .timer-right a {
+    position: relative;
+    top: 0;
+    margin: 0;
+    height: 16px;
+    width: 16px;
+    text-decoration: none;
+  }
+  .timer .timer-right a svg {
+    position: absolute;
+    top: 0;
+  }
+  .timer .timer-right .fb {
+    right: 70px;
+  }
+  .timer .timer-right .ig {
+    color: red;
+    right: 50px;
+  }
+  .timer .timer-right .e-mail {
+    color: black;
+    right: 23px;
+  }
 }
 @media screen and (max-width: 899px) {
   .timer {

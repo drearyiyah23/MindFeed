@@ -36,6 +36,7 @@ main .about .box .up {
 }
 main .about .box .down {
   font-size: 24px;
+  text-align: justify;
   font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   background-color: #ffffff;
