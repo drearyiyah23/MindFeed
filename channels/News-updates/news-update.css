@@ -19,7 +19,7 @@ main .news-flex {
 main .news-flex .news-card {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  height: 80vh;
+  height: auto;
 }
 main .news-flex .news-card .news-pic {
   display: flex;
