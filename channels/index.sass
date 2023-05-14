@@ -1,4 +1,35 @@
+
+@mixin title-font()
+  color: black
+  display: flex
+  justify-content: center
+  font-size: 30px
+  padding: 30px
+  font-weight: 600
+
+@mixin small-font()
+  color: black
+  display: flex
+  justify-content: center
+  font-size: 20px
+  padding: 10px
+  font-weight: 600
+
+@mixin link()
+  position: absolute
+  
+  right: 47%
+  padding: 10px
+  background-color: black
+  color: white
+  border-radius: 20px
+  text-decoration: none
+  font-size: 24px
+  font-weight: 600
+  
+  
 @media screen and (min-width: 900px)
+
   #container
     position: sticky
     top: 17px
@@ -73,78 +104,216 @@
         color: #fff8f8
         bottom: 20px
 
-        
-  .frame
-    background-color: #fff8f8
-    .fr1-1-2
-      display: flex
-      padding-top: 35px
-      justify-content: center
-      margin-bottom: 20px
-      font-family: 'Times New Roman' Times serif
-      font-weight: bold
-      font-size: 24px
-    .goal-text
-      font-family: 'Trirong'
-      font-style: normal
-      font-weight: 800
-      font-size: 20px
-      line-height: 35px
-      text-align: center
-      margin: 0 50px 0 50px
-    .fr1-2
-      display: flex
-      justify-content: center
-      align-items: center
-      position: relative
-      height: 70vh
-      iframe
-        width: 850px
-        aspect-ratio: 16/9
-
-    .fr1-3
-      min-width: 200px
-      grid-gap: 70px
-      margin-top: 30px
-      background-color: #c9c8c8
-      
-      .programs
-    
-      div
-        max-height: 490px
-        object-fit: cover
-        .pic
-          object-fit: cover
-          top:10px
-          width: 100%
-          height: 100%
-  .frame
-    .news
-      .news-1
-      .news-2-1
-        display: grid
-        place-items: center
-        grid-template-columns: 1fr .5fr .5fr
-      .news-2-2
-        display: grid
-        place-items: center
-        grid-template-columns: .5fr .5fr 1fr
-        // .news-box
-        //   .news-pic
-        //     .newspic-size
-        //   .news-text
-        //   .absolute
-  .frame
-    .sports-pic
-      display: flex
-      justify-content: center
-      align-items: center
-      height: 30vh
-      background-color: #121212
-      color: white
-      span
-        font-family: 'Asul'
+  main
+    height: 100%
+    background-color: white
+    margin-top: 70vh        
+    .frame
+      background-color: #fff8f8
+      .fr1-1-2
+        display: flex
+        padding-top: 35px
+        justify-content: center
+        margin-bottom: 20px
+        font-family: 'Times New Roman' Times serif
+        font-weight: bold
+        font-size: 24px
+      .goal-text
+        font-family: 'Trirong'
         font-style: normal
-        font-weight: 700
-        font-size: 96px
-        line-height: 116px
+        font-weight: 800
+        font-size: 20px
+        line-height: 35px
+        text-align: center
+        margin: 0 50px 0 50px
+      .fr1-2
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        height: 70vh
+        iframe
+          width: 850px
+          aspect-ratio: 16/9
+
+      .fr1-3
+        min-width: 200px
+        grid-gap: 70px
+        margin-top: 30px
+        background-color: #c9c8c8
+        
+        .programs
+      
+        div
+          max-height: 490px
+          object-fit: cover
+          .pic
+            object-fit: cover
+            top:10px
+            width: 100%
+            height: 100%
+    .frame
+      .news
+        position: relative
+        height: 70vh
+        background-color: #b8252c
+        .news-1
+          @include title-font()
+          
+        .news-2-1
+          display: grid
+          place-items: center
+          grid-template-columns: 1fr 1fr
+          .news-box
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            .news-pic
+              width: 30vw
+              position: relative
+              
+              .newspic-size
+                width: 30vw
+                height: 30vh
+                object-fit: cover
+            .news-text
+              p 
+                display: flex
+                margin: 5% 20%
+                font-size: 20px
+                color: white
+                
+            .absolute
+        .news-2-2
+          .news-box
+            .news-pic
+              .newspic-size
+            .news-text
+            .absolute
+      .news-3
+        .news-link 
+          @include link()
+          bottom: 5%
+          
+    .frame
+      .sports-pic
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 40vh
+        background-color: #121212
+        color: white
+        margin: 5% 0
+        img
+          height: 40vh
+          width: 100vw
+          object-fit: cover
+        a
+          position: absolute
+          font-family: 'Asul'
+          font-style: normal
+          font-weight: 700
+          font-size: 96px
+          line-height: 116px
+          text-decoration: none
+          color: white
+          &:hover
+            opacity: 80%
+    .red
+      background-color: white
+      position: relative
+      display: flex
+      flex-direction: column
+      z-index: 0
+      padding-bottom: 100px
+      .bg-red
+        background-color: rgba(177, 4, 13, 0.938)
+        position: absolute
+        opacity: 0.8
+        width: 100%
+        height: 100%
+      img
+        position: absolute
+        opacity: 1
+        
+        width: 100%
+        height: 100%
+        object-fit: cover
+        z-index: 0
+      .month
+        z-index: 1
+        @include title-font()
+      .event
+        opacity: 1
+        z-index: 1
+        color: black
+        margin: 0 5%
+        .event-1
+          @include title-font()
+        .event-2
+          display: grid
+          grid-template-columns: 1fr 1fr 1fr
+          gap: 2%
+          .event-box
+            display: grid
+            grid-template-columns: 1fr 3fr
+            background-color: grey
+            width: 20vw
+            height: 120px
+            .event-date
+              @include title-font()
+              padding: 5px
+              text-align: center
+            .event-text
+              @include small-font()
+              background-color: white
+              padding: 5px
+            
+        .event-3
+          display: flex
+          height: 100px
+          .event-link
+            @include link()
+            right: 2%
+      .announcement
+        opacity: 1
+        z-index: 1
+        color: black
+        margin: 0 5%
+        .announcement-1
+          @include title-font()
+        .announcement-2
+          display: grid
+          grid-template-columns: 1fr 1fr 1fr
+          gap: 2%
+          .announcement-box
+            display: grid
+            grid-template-columns: 1fr 3fr
+            background-color: grey
+            width: 20vw
+            height: 120px
+            .announcement-date
+              @include title-font()
+              padding: 5px
+              text-align: center
+            .announcement-text
+              @include small-font()
+              background-color: white
+              padding: 5px
+        .announcement-3
+          display: flex
+          height: 100px
+          .announcement-link
+            @include link()
+            right: 2%
+    .google-map
+      width: 100vw
+      
+      .google-pic
+        width: 100vw
+        height: 20vh
+        object-fit: cover
+
+        
+        
