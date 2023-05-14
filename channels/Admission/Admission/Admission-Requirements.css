@@ -51,30 +51,30 @@ main div ul {
 main div ul div {
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
 }
 main div ul div div {
   border-radius: 5px;
 }
 main div ul div .grade-7 {
-  width: 88rem;
+  width: 74rem;
   border: 1px solid lime;
 }
 main div ul div .grade-11 {
-  width: 32rem;
+  width: 28rem;
   border: 1px solid violet;
 }
 main div ul div .grade-12 {
-  width: 32rem;
+  width: 28rem;
   border: 1px solid orange;
 }
 main div ul div .grade-other12 {
-  width: 52rem;
+  width: 46rem;
   border: 1px solid orange;
 }
 main div ul div .grade-other {
-  width: 32rem;
+  width: 28rem;
   border: 1px solid brown;
 }
 main div ul .margin {
@@ -94,6 +94,9 @@ main div div {
   display: grid;
   grid-template-columns: 1fr1fr;
   place-items: center;
+}
+main div div h2 {
+  color: #db3e3e;
 }
 main div div h3 {
   width: 70%;

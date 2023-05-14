@@ -69,7 +69,7 @@ main .shs {
 main .shs .shs-template {
   position: relative;
   display: grid;
-  height: 50vh;
+  height: 520px;
   grid-template-columns: 1fr 1fr 0;
   margin: 0 5% 0 5%;
 }
@@ -105,8 +105,8 @@ main .shs .shs-template .shs-pic {
   width: 100%;
 }
 main .shs .shs-template .shs-pic img {
-  width: 90%;
-  height: 40vh;
+  width: 630px;
+  height: 364px;
   -o-object-fit: cover;
      object-fit: cover;
 }

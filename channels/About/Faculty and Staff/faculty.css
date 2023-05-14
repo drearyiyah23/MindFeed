@@ -25,10 +25,10 @@ main .accordion {
   position: relative;
 }
 main .accordion .accordion-item {
-  width: 60vw;
+  width: 70vw;
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
-  margin: 0 25%;
+  margin: 0 28%;
 }
 main .accordion .accordion-item .accordion-header {
   display: flex;
@@ -84,13 +84,14 @@ main .accordion .accordion-item .accordion-body {
   position: relative;
 }
 main .accordion .accordion-item .accordion-body img {
+  width: 50vw;
   position: relative;
   top: 0;
-  height: 30vw;
+  height: auto;
 }
 main .accordion .accordion-item .accordion-body .mar {
-  margin-top: 70rem;
+  margin-top: 105rem;
 }
 main .accordion .accordion-item .accordion-body .mar8 {
-  margin-top: 105rem;
+  margin-top: 153rem;
 }/*# sourceMappingURL=faculty.css.map */
