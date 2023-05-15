@@ -161,26 +161,25 @@
           @include title-font()
           
         .news-2-1
-          display: grid
-          place-items: center
-          grid-template-columns: 1fr 1fr 1fr
+          display: flex
+          align-items: flex-start
           margin: 2%
           .news-box
             display: flex
             justify-content: center
             align-items: center
             flex-direction: column
+
             .news-pic
-              
-              position: relative
               display: flex
               justify-content: center
-              align-items: center
+              align-items: flex-start
+              
               .newspic-size
                 
               .large
                 width: 50vw
-                height: 50vh
+                position: relative
                 object-fit: cover
               .smol
                 width: 20vw
@@ -194,6 +193,8 @@
                 color: white
                 
             .absolute
+              position: absolute
+              top: 10px
         .news-2-2
           .news-box
             .news-pic
