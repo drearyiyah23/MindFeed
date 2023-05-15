@@ -105,7 +105,7 @@ main .shs .shs-template .shs-pic {
   width: 100%;
 }
 main .shs .shs-template .shs-pic img {
-  width: 630px;
+  width: 40vw;
   height: 364px;
   -o-object-fit: cover;
      object-fit: cover;
