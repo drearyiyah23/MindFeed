@@ -87,19 +87,45 @@
     background-color: white;
     margin-top: 70vh;
   }
-  main .frame {
-    background-color: #fff8f8;
+  main div {
+    position: relative;
+    display: flex;
+    justify-content: center;
   }
-  main .frame .fr1-1-2 {
+  main div .click {
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    bottom: 4.2vh;
+    height: 10vh;
+    width: 76vh;
+    border-radius: 20px;
+  }
+  main div img {
+    width: 100vw;
+  }
+  main .welcome {
+    background-color: #fff8f8;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  main .welcome .fr1-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  main .welcome .fr1-1 .fr1-1-2 {
     display: flex;
     padding-top: 35px;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 30px;
   }
-  main .frame .goal-text {
+  main .welcome .fr1-1 .goal-text {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -108,29 +134,29 @@
     text-align: center;
     margin: 0 10%;
   }
-  main .frame .fr1-2 {
+  main .fr1-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     height: 70vh;
   }
-  main .frame .fr1-2 iframe {
+  main .fr1-2 iframe {
     width: 60vw;
     aspect-ratio: 16/9;
   }
-  main .frame .fr1-3 {
+  main .fr1-3 {
     min-width: 200px;
     grid-gap: 70px;
     margin-top: 30px;
     background-color: #c9c8c8;
   }
-  main .frame .fr1-3 div {
+  main .fr1-3 .programs div {
     max-height: 490px;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  main .frame .fr1-3 div .pic {
+  main .fr1-3 .programs div .pic {
     -o-object-fit: cover;
        object-fit: cover;
     top: 10px;
@@ -165,10 +191,24 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    position: relative;
+  }
+  main .frame .news .news-2-1 .news-box .news-pic .news-text {
+    display: flex;
+    margin: 5% 20%;
+    font-size: 20px;
+    color: black;
+  }
+  main .frame .news .news-2-1 .news-box .news-pic .news-text .title {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding: 30px;
+    font-weight: 600;
   }
   main .frame .news .news-2-1 .news-box .news-pic .large {
     width: 50vw;
-    position: relative;
     -o-object-fit: cover;
        object-fit: cover;
   }
