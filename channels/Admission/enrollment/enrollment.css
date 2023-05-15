@@ -91,8 +91,8 @@ h3, p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  min-height: 490px;
-  width: 23em;
+  min-height: 400px;
+  width: 20em;
   border-radius: 20px;
   padding: 2em;
   position: relative;
@@ -103,10 +103,11 @@ h3, p {
   color: hsl(0, 95%, 23%);
   font-style: oblique;
   top: 70px;
-  left: 110px;
+  left: 93px;
   position: absolute;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .g {
