@@ -3,17 +3,21 @@
   color: black
   display: flex
   justify-content: center
-  font-size: 35px
+  font-size: 40px
   padding: 30px
   font-weight: 600
+  font-family: 'Times New Roman', Times, serif
 
 @mixin small-font()
   color: black
   display: flex
   justify-content: center
+  align-items: center
+  text-align: center
   font-size: 35px
   padding: 10px
   font-weight: 600
+  font-family: 'Times New Roman', Times, serif
 
 @mixin link()
   position: absolute
@@ -237,7 +241,6 @@
       .news-3
         .news-link 
           @include link()
-          bottom: 5%
           
     .frame
       .sports-pic
@@ -302,8 +305,8 @@
             display: grid
             grid-template-columns: 1fr 3fr
             background-color: grey
-            width: 25vw
-            height: 120px
+            width: 350px
+            height: 130px
             .event-date
               @include title-font()
               padding: 5px
@@ -318,6 +321,7 @@
           height: 100px
           .event-link
             @include link()
+            bottom: 590px
             right: 2%
       .announcement
         opacity: 1
@@ -334,8 +338,8 @@
             display: grid
             grid-template-columns: 1fr 3fr
             background-color: grey
-            width: 20vw
-            height: 120px
+            width: 350px
+            height: 130px
             .announcement-date
               @include title-font()
               padding: 5px
@@ -349,6 +353,7 @@
           height: 100px
           .announcement-link
             @include link()
+            bottom: 60px
             right: 2%
     .google-map
       width: 100vw

@@ -40,6 +40,10 @@ main {
   align-items: center;
   flex-direction: column;
 }
+main div img {
+  width: 90%;
+  margin: 5%;
+}
 main h2 .orange {
   display: flex;
   border: 1px solid orange;

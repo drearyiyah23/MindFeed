@@ -173,9 +173,10 @@
     color: black;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 30px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
   }
   main .frame .news .news-2-1 {
     display: flex;
@@ -204,9 +205,10 @@
     color: black;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 30px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
   }
   main .frame .news .news-2-1 .news-box .news-pic .large {
     width: 50vw;
@@ -239,7 +241,6 @@
     text-decoration: none;
     font-size: 24px;
     font-weight: 600;
-    bottom: 5%;
   }
   main .frame .sports-pic {
     display: flex;
@@ -298,9 +299,10 @@
     color: black;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 30px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
   }
   main .red .event {
     opacity: 1;
@@ -312,9 +314,10 @@
     color: black;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 30px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
   }
   main .red .event .event-2 {
     display: grid;
@@ -325,16 +328,17 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     background-color: grey;
-    width: 25vw;
-    height: 120px;
+    width: 350px;
+    height: 130px;
   }
   main .red .event .event-2 .event-box .event-date {
     color: black;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 30px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
     padding: 5px;
     text-align: center;
   }
@@ -342,9 +346,12 @@
     color: black;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 35px;
     padding: 10px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
     background-color: white;
     padding: 5px;
   }
@@ -362,6 +369,7 @@
     text-decoration: none;
     font-size: 24px;
     font-weight: 600;
+    bottom: 590px;
     right: 2%;
   }
   main .red .announcement {
@@ -374,9 +382,10 @@
     color: black;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 30px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
   }
   main .red .announcement .announcement-2 {
     display: grid;
@@ -387,16 +396,17 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     background-color: grey;
-    width: 20vw;
-    height: 120px;
+    width: 350px;
+    height: 130px;
   }
   main .red .announcement .announcement-2 .announcement-box .announcement-date {
     color: black;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 30px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
     padding: 5px;
     text-align: center;
   }
@@ -404,9 +414,12 @@
     color: black;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 35px;
     padding: 10px;
     font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
     background-color: white;
     padding: 5px;
   }
@@ -424,6 +437,7 @@
     text-decoration: none;
     font-size: 24px;
     font-weight: 600;
+    bottom: 60px;
     right: 2%;
   }
   main .google-map {
