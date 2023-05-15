@@ -8,6 +8,14 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #a3a3a3;
+  flex-direction: column;
+}
+main div {
+  display: flex;
+  width: 100vw;
+}
+main div img {
+  width: 100vw;
 }
 main .about {
   display: flex;

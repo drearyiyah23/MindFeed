@@ -91,17 +91,17 @@ main .accordion .accordion-item .accordion-body {
   position: relative;
 }
 main .accordion .accordion-item .accordion-body img {
-  width: 600px;
+  width: 60vw;
   position: relative;
   top: 0;
   height: auto;
 }
 main .accordion .accordion-item .accordion-body .mar {
-  margin-top: 700px;
+  margin-top: 1140px;
 }
 main .accordion .accordion-item .accordion-body .mars {
-  margin-top: 2900px;
+  margin-top: 3930px;
 }
 main .accordion .accordion-item .accordion-body .mar8 {
-  margin-top: 1250px;
+  margin-top: 1850px;
 }/*# sourceMappingURL=faculty.css.map */

@@ -2,7 +2,6 @@
 @mixin title-font()
   display: flex
   justify-content: center
-  font-size: 35px
   padding: 30px
   font-weight: 600
   font-family: 'Times New Roman', Times, serif
@@ -111,6 +110,29 @@
     height: 100%
     background-color: white
     margin-top: 50vh
+    .messenger-float
+      position: fixed
+      bottom: 25px
+      right: 30px
+      width: 80px
+      height: 80px
+      z-index: 20
+      background-color: white
+      
+      border: 2px solid white
+      border-radius: 100%
+      
+      a
+        svg
+          position: fixed
+          padding: 10px
+          width: 70px
+          height: 70px
+          bottom: 30px
+          right: 35px
+          color: #b8252c
+          path
+          
     .update
       position: relative
       display: flex
@@ -141,7 +163,7 @@
           align-items: center
           flex-direction: column
           margin-bottom: 20px
-          font-family: Arial, Helvetica, sans-serif
+          font-family: 'Times New Roman', Times, serif
           font-weight: bold
           font-size: 30px
         .goal-text
@@ -185,7 +207,7 @@
         background-color: #b8252c
         .news-1
           @include title-font()
-          
+          font-size: 35px
         .news-2-1
           display: flex
 
@@ -298,18 +320,20 @@
         .event-1
           color: white
           @include title-font()
+          font-size: 35px
         .event-2
           display: grid
           grid-template-columns: 1fr 1fr 1fr
-          gap: 40% 0
+          gap: 20% 0
           .event-box
             display: grid
             grid-template-columns: 1fr 3fr
             background-color: grey
             width: 350px
-            height: 130px
+            height: 100px
             .event-date
               @include title-font()
+              font-size: 30px
               padding: 5px
               text-align: center
             .event-text
@@ -322,8 +346,8 @@
           height: 100px
           .event-link
             @include link()
-            bottom: 590px
-            right: 2%
+            bottom: 650px
+            right: 7%
       .announcement
         opacity: 1
         z-index: 1
@@ -331,19 +355,22 @@
         margin: 5% 5%
         .announcement-1
           color: white
+          margin: 30px 0
           @include title-font()
+          font-size: 35px
         .announcement-2
           display: grid
           grid-template-columns: 1fr 1fr 1fr
-          gap: 40% 0
+          gap: 20% 0
           .announcement-box
             display: grid
             grid-template-columns: 1fr 3fr
             background-color: grey
             width: 350px
-            height: 130px
+            height: 100px
             .announcement-date
               @include title-font()
+              font-size: 30px
               padding: 5px
               text-align: center
             .announcement-text
@@ -355,8 +382,8 @@
           height: 100px
           .announcement-link
             @include link()
-            bottom: 60px
-            right: 2%
+            bottom: 120px
+            right: 7%
     .google-map
       width: 100vw
       
