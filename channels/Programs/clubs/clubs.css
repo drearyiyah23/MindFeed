@@ -6,8 +6,9 @@
     align-items: center;
     flex-direction: column;
     margin: 5%;
+    gap: 50px;
   }
-  main .frame-ssg {
+  main .frame {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -15,8 +16,9 @@
     position: relative;
     background-color: #d2f8c6;
   }
-  main .frame-ssg h2 {
-    top: 11%;
+  main .frame h2 {
+    position: sticky;
+    top: 12%;
     padding: 10px;
     text-align: center;
     height: auto;
@@ -25,17 +27,17 @@
     font-family: "Times New Roman", Times, serif;
     margin: 5px 0 50px 0;
   }
-  main .frame-ssg .Facilities-head {
+  main .frame .Facilities-head {
     display: flex;
     margin-bottom: 130px;
     justify-content: center;
     align-items: center;
     gap: 170px;
   }
-  main .frame-ssg .Facilities-head img {
+  main .frame .Facilities-head img {
     width: 15vw;
   }
-  main .frame-ssg .Facilities-container {
+  main .frame .Facilities-container {
     display: grid;
     grid-template-columns: 17vw 17vw 17vw 17vw 17vw;
     grid-auto-rows: 13vw;
@@ -44,7 +46,7 @@
     place-items: center;
     margin-bottom: 5%;
   }
-  main .frame-ssg .Facilities-container .facilities {
+  main .frame .Facilities-container .facilities {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -52,16 +54,17 @@
     justify-content: center;
     align-items: center;
   }
-  main .frame-ssg .Facilities-container .facilities .facilities-1 {
+  main .frame .Facilities-container .facilities .facilities-1 {
     display: flex;
   }
-  main .frame-ssg .Facilities-container .facilities .facilities-1 img {
+  main .frame .Facilities-container .facilities .facilities-1 img {
     border: 15px solid #b6c593;
+    width: 13vw;
     height: auto;
     -o-object-fit: fill;
        object-fit: fill;
   }
-  main .frame-ssg .Facilities-container .facilities .facilities-2 {
+  main .frame .Facilities-container .facilities .facilities-2 {
     display: flex;
     justify-content: center;
     align-items: center;
