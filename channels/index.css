@@ -126,6 +126,27 @@
   main .update img {
     width: 100vw;
   }
+  main .shs-update {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .shs-update .shs-click {
+    background-color: rgba(197, 76, 76, 0.3450980392);
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    bottom: 14vh;
+    left: 9vw;
+    height: 10vh;
+    width: 40vh;
+    border-radius: 20px;
+  }
+  main .shs-update img {
+    width: 100vw;
+    height: 70vh;
+  }
   main .welcome {
     background-color: #fff8f8;
     display: flex;
