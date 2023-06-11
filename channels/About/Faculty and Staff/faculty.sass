@@ -1,0 +1,89 @@
+
+*, *::before, *::after 
+	box-sizing: border-box 
+body 
+	margin: 0 
+	background-color: #fff8f8 
+	font-family: 'Work Sans', sans-serif 
+	font-weight: 400 
+
+@mixin grade()
+	width: 15vw
+	position: absolute
+	left: 90px
+	
+
+#container
+	height: 70vh
+	.container-1
+		height: 70vh
+		place-items: center
+main
+	margin: 20px 0 0 0
+	height: 80vh
+	.accordion
+		position: relative	
+		.accordion-item
+			width: 70vw
+			background-color: #00000000
+			padding: 0
+			margin: 0 28%
+			.accordion-header
+				
+				display: flex
+				flex-direction: column
+				justify-content: left
+				margin: 0 20%
+				.accordion-button
+					
+					border: 0
+					background-color: white
+					display: flex
+					flex-direction: row
+					justify-content: left
+				.no1
+					top: 210px
+					
+					@include grade()
+					background-color: #45da456b
+				.no2
+					top: 270px
+					@include grade()
+					background-color: #cbda456b
+				.no3
+					top: 330px
+					@include grade()
+					background-color: #da45456b
+				.no4
+					top: 390px
+					@include grade()
+					background-color: #4568da6b
+				.no5
+					top: 450px
+					@include grade()
+					background-color: #da9e456b
+			.accordion-body
+				max-height: 900px
+				overflow: auto
+				scrollbar-color: red orange
+				scrollbar-width: thin
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				scroll-snap-type: x proximity
+				position: relative
+				img
+					width: 60vw
+					position: relative
+					top: 0
+					height: auto
+				.mar
+					margin-top: 1140px
+				.mars
+					margin-top: 3930px
+				.mar8
+					margin-top: 1850px
+				.mar9
+					margin-top: 1200px
+							

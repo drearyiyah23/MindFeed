@@ -1,0 +1,487 @@
+@media screen and (min-width: 900px) {
+  #container {
+    position: sticky;
+    top: 17px;
+    height: 100vh;
+    z-index: -1;
+  }
+  #container .container-1 {
+    position: sticky;
+    height: 100vh;
+  }
+  #container .container-1 .banner {
+    height: 88vh;
+    z-index: 1;
+  }
+  #container .container-1 .banner .first {
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #container .container-1 .logos {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 48%;
+    justify-content: center;
+    background-color: white;
+    font-weight: 800;
+    color: #fff8f8;
+    font-family: "Trirong";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 71px;
+    text-align: center;
+    width: auto;
+    border-radius: 100%;
+  }
+  #container .container-1 .logos img {
+    width: 70px;
+  }
+  #container .container-1 .name {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff8f8;
+    font-family: "Trirong";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 71px;
+    text-align: center;
+    width: 100%;
+  }
+  #container .container-1 .slogan {
+    display: flex;
+    position: absolute;
+    top: 47%;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff8f8;
+    font-family: "Trirong";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 71px;
+    text-align: center;
+    width: 100%;
+  }
+  #container .container-1 .banner2 {
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    justify-content: center;
+    font-family: "Trirong";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 40px;
+    background-color: #b8252c;
+    color: #fff8f8;
+    bottom: 15px;
+  }
+  main {
+    height: 100%;
+    background-color: white;
+    margin-top: 50vh;
+  }
+  main .messenger-float {
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    z-index: 20;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 100%;
+  }
+  main .messenger-float a svg {
+    position: fixed;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    bottom: 30px;
+    right: 35px;
+    color: #b8252c;
+  }
+  main .update {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .update .click {
+    background-color: #fff8f8;
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    bottom: 4.2vh;
+    height: 10vh;
+    width: 76vh;
+    border-radius: 20px;
+  }
+  main .update img {
+    width: 100vw;
+  }
+  main .shs-update {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .shs-update .shs-click {
+    background-color: rgba(197, 76, 76, 0.3450980392);
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    bottom: 14vh;
+    left: 9vw;
+    height: 10vh;
+    width: 40vh;
+    border-radius: 20px;
+  }
+  main .shs-update img {
+    width: 100vw;
+    height: 70vh;
+  }
+  main .welcome {
+    background-color: #fff8f8;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  main .welcome .fr1-1 {
+    background-color: #fff8f8;
+  }
+  main .welcome .fr1-1 .fr1-1-2 {
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  main .welcome .fr1-1 .goal-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 10%;
+  }
+  main .fr1-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 70vh;
+  }
+  main .fr1-2 iframe {
+    width: 60vw;
+    aspect-ratio: 16/9;
+  }
+  main .fr1-3 {
+    min-width: 200px;
+    grid-gap: 70px;
+    margin-top: 30px;
+    background-color: #c9c8c8;
+  }
+  main .fr1-3 .programs div {
+    max-height: 490px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .fr1-3 .programs div .pic {
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  main .frame .news {
+    position: relative;
+    height: 1400px;
+    background-color: #b8252c;
+  }
+  main .frame .news .news-1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+  }
+  main .frame .news .news-2-1 {
+    display: flex;
+    align-items: flex-start;
+    margin: 2%;
+  }
+  main .frame .news .news-2-1 .news-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .frame .news .news-2-1 .news-box .news-pic {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+  }
+  main .frame .news .news-2-1 .news-box .news-pic .news-text {
+    display: flex;
+    margin: 5% 20%;
+    font-size: 20px;
+    color: black;
+  }
+  main .frame .news .news-2-1 .news-box .news-pic .news-text .title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+  }
+  main .frame .news .news-2-1 .news-box .news-pic .large {
+    width: 50vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .frame .news .news-2-1 .news-box .news-pic .smol {
+    width: 20vw;
+    height: 30vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .frame .news .news-2-1 .news-box .news-text p {
+    display: flex;
+    margin: 5% 20%;
+    font-size: 20px;
+    color: white;
+  }
+  main .frame .news .news-2-1 .news-box .absolute {
+    position: absolute;
+    top: 10px;
+  }
+  main .frame .news-3 .news-link {
+    position: absolute;
+    right: 47%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  main .frame .sports-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #121212;
+    color: white;
+    margin: 5% 0;
+  }
+  main .frame .sports-pic img {
+    height: 40vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .frame .sports-pic a {
+    position: absolute;
+    font-family: "Asul";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+    text-decoration: none;
+    color: white;
+  }
+  main .frame .sports-pic a:hover {
+    opacity: 80%;
+  }
+  main .red {
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    padding-bottom: 100px;
+  }
+  main .red .bg-red {
+    background-color: rgba(177, 4, 13, 0.938);
+    position: absolute;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  main .red img {
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: 0;
+  }
+  main .red .month {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+  }
+  main .red .event {
+    opacity: 1;
+    z-index: 1;
+    color: black;
+    margin: 0 5%;
+  }
+  main .red .event .event-1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+  }
+  main .red .event .event-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20% 0;
+  }
+  main .red .event .event-2 .event-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: grey;
+    width: 350px;
+    height: 100px;
+  }
+  main .red .event .event-2 .event-box .event-date {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+  }
+  main .red .event .event-2 .event-box .event-text {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    padding: 5px;
+  }
+  main .red .event .event-3 {
+    display: flex;
+    height: 100px;
+  }
+  main .red .event .event-3 .event-link {
+    position: absolute;
+    right: 47%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    bottom: 650px;
+    right: 7%;
+  }
+  main .red .announcement {
+    opacity: 1;
+    z-index: 1;
+    color: black;
+    margin: 5% 5%;
+  }
+  main .red .announcement .announcement-1 {
+    color: white;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+  }
+  main .red .announcement .announcement-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20% 0;
+  }
+  main .red .announcement .announcement-2 .announcement-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: grey;
+    width: 350px;
+    height: 100px;
+  }
+  main .red .announcement .announcement-2 .announcement-box .announcement-date {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+  }
+  main .red .announcement .announcement-2 .announcement-box .announcement-text {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    padding: 5px;
+  }
+  main .red .announcement .announcement-3 {
+    display: flex;
+    height: 100px;
+  }
+  main .red .announcement .announcement-3 .announcement-link {
+    position: absolute;
+    right: 47%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    bottom: 120px;
+    right: 7%;
+  }
+  main .google-map {
+    width: 100vw;
+  }
+  main .google-map .google-pic {
+    width: 100vw;
+    height: 20vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=index.css.map */

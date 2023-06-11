@@ -1,0 +1,103 @@
+#container {
+  top: 17px;
+  height: 80vh;
+  z-index: -1;
+}
+#container .container-1 {
+  position: sticky;
+  height: 80vh;
+}
+#container .container-1 .banner {
+  height: 88vh;
+  z-index: 1;
+}
+#container .container-1 .banner .first {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.kto {
+  display: flex;
+  justify-content: center;
+  font-family: "Trirong";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  background-color: #b8252c;
+  color: #fff8f8;
+  padding: 30px 0 30px 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cdcdcd;
+  flex-direction: column;
+}
+main div {
+  display: grid;
+  grid-template-columns: 1fr1fr;
+  background-color: #ffffff;
+  margin: 50px;
+}
+main div ul {
+  display: grid;
+  grid-template-columns: 1fr1fr1fr1fr;
+  place-items: center;
+}
+main div ul div {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-size: 30px;
+  font-weight: 700;
+}
+main div ul div div {
+  border-radius: 5px;
+}
+main div ul div .grade-7 {
+  width: 74rem;
+  border: 1px solid lime;
+}
+main div ul div .grade-11 {
+  width: 28rem;
+  border: 1px solid violet;
+}
+main div ul div .grade-12 {
+  width: 28rem;
+  border: 1px solid orange;
+}
+main div ul div .grade-other12 {
+  width: 46rem;
+  border: 1px solid orange;
+}
+main div ul div .grade-other {
+  width: 28rem;
+  border: 1px solid brown;
+}
+main div ul .margin {
+  margin-bottom: 50px;
+}
+main div ul li {
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-size: 25px;
+  width: 70%;
+  font-weight: 600;
+}
+main div div {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 1fr1fr;
+  place-items: center;
+}
+main div div h2 {
+  color: #db3e3e;
+}
+main div div h3 {
+  width: 70%;
+}/*# sourceMappingURL=Admission-Requirements.css.map */
