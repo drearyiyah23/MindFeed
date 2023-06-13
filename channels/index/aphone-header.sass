@@ -75,15 +75,8 @@ header
   height: 100%
   display: flex
   align-items: center
-.top-left2
-  display: flex
-  grid-column: 2 / 3
-  justify-content: center
-  align-items: center
-  color: #c9c8c8
-  padding: 0 8px 0 8px
-  margin: 0 5px 0 25px
-  font-weight: 800
+
+
 .nav-toggle-label span
   display: block
   background: white
@@ -124,6 +117,7 @@ nav
     margin: 0
     padding: 0
     list-style: none
+    background-color: #942424
   li
     margin-bottom: 1em
     margin-right: 1em
@@ -147,6 +141,16 @@ nav
 .topbar
   display: grid
   grid-template-columns: 1fr 1fr 1fr
+  align-items: center
+  .top-left2
+    display: flex
+    grid-column: 2 / 3
+    justify-content: center
+    align-items: center
+    color: #c9c8c8
+    padding: 0 8px 0 8px
+    margin: 0 5px 0 25px
+    font-weight: 800
 
 
 
@@ -197,6 +201,112 @@ nav
     .e-mail
       color: black
       right: 23px
+.frame-red 
+    bottom: 0
+    background-color: #942424
+    padding: 10px 20px
+    
+      
+    
+      
+    .contactus-3
+      margin: 20px 20px
+      border: solid 3px white
+      padding: 20px 20px
+      color: white
+      display: flex
+      flex-direction: column-reverse
+      .contactus-3-1
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-bottom: 50px 
+        .contactus-3-text
+          
+          font-weight: 700
+          
+            
+      form  
+        .form-group 
+          margin-bottom: 15px 
+          
+          label 
+            font-size: 20px
+            font-weight: 700
+            display: block 
+            margin-bottom: 5px 
+          input[type="text"]
+            width: 55vw
+            padding: 8px 
+            border: 1px solid #ccc 
+            border-radius: 4px 
+          input[type="email"]
+            width: 55vw
+            padding: 8px 
+            border: 1px solid #ccc 
+            border-radius: 4px 
+          textarea 
+            width: 55vw
+            padding: 8px 
+            border: 1px solid #ccc 
+            border-radius: 4px
+            resize: none
+            height: 100px
+        button
+          display: flex
+          align-items: center
+          justify-content: center
+          background-color: #0e0e0e
+          color: white
+          width: 100%
+          height: 40px 
+          border-radius: 4px  
+          font-weight: 700
+          .send 
+            display: flex
+            font-size: 20px 
+           
+            
+            padding: 10px 
+            background-color: #4CAF50 
+            color: white 
+            
+            cursor: pointer 
+          &:hover 
+            background-color: #414141 
+      .contactus-3-2
+        display: grid
+        
+        .contact-info
+          
+          display: flex
+          align-items: center
+          justify-content: center
+          flex-direction: column
+          font-size: 30px
+          font-weight: 700
+          margin-bottom: 50px
+          h3
+            text-align: center
+            font-size: 37px
+            font-weight: 700
+            margin-bottom: 50px
+          p  
+            color: white
+        .hours
+          font-size: 30px
+          font-weight: 700
+          display: flex
+          align-items: center
+          justify-content: center
+          flex-direction: column
+          margin-bottom: 50px
+          h3
+            font-size: 37px
+            font-weight: 700
+          p  
+            color: white
 @media screen and (min-width: 900px)
 
     
@@ -208,7 +318,8 @@ nav
     padding: 0
     font-size: 12px
     display: grid
-    grid-template-columns: 1fr 1fr
+    align-items: center
+    grid-template-columns: 2fr 1fr
     position: fixed
     top: 0
     background-color: #b1040d
