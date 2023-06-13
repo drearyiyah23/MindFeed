@@ -5,6 +5,7 @@
     background-color: lightblue;
   }
   #container .container-1 {
+    position: -webkit-sticky;
     position: sticky;
     height: 70vh;
     background-color: grey;

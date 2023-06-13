@@ -52,7 +52,7 @@ header
   display: grid
   grid-template-columns: auto 1fr
   grid-gap: 20px
-  position: absolute
+  position: xsolute
 
 
   /* (phone) about us style end*/
@@ -60,7 +60,8 @@ header
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
 .drop-down
-  @extend %ken
+  display: flex
+  flex-direction: column
 .nav-toggle
   position: absolute !important
   top: -9999px !important
@@ -93,7 +94,6 @@ header
     border-radius: 2px
     position: relative
 a
- margin-top: 20px
 .nav-toggle-label span
   &::before,
   &::after
@@ -108,16 +108,18 @@ nav
   text-align: right
   top: 100%
   left: 0
-  background: var(--background)
+  background-color: #b8252c
+  z-index: 5
   width: 100%
   transform: scale(1, 0)
   transform-origin: top
   transition: transform 400ms ease-in-out
+  
   ul
     margin: 0
     padding: 0
     list-style: none
-    background-color: #942424
+    
   li
     margin-bottom: 1em
     margin-right: 1em
@@ -353,7 +355,7 @@ nav
       z-index: 1
     .first
       width: 100vw
-      height: 95vh
+      height: 50vh
       object-fit: cover
     
   .frame

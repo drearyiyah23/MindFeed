@@ -9,9 +9,7 @@ body
 	font-weight: 400 
 h3, p 
 	margin: 5px 0 5px 0 
-#container2 
-	min-height: 100% 
-	padding-bottom: 250px 
+
 .container2 
 	display: flex 
 	flex-wrap: wrap 
@@ -30,13 +28,7 @@ h3, p
 	z-index: -1 
 .front-text 
 	font-size: larger 
-.container2-1 
-	padding: 3em 
-	margin: 4rem 0 0 0 
-	justify-content: center 
-	min-height: 100% 
-	padding-bottom: 250px 
-	grid-gap: 2em 
+
 .div-home 
 	background-color: #fffffff6 
 .quote 
@@ -136,3 +128,21 @@ b
 	height: 150px 
 	margin-top: -150px 
 	text-align: center 
+@media screen and (min-width: 900px)
+	#container2 
+		min-height: 100% 
+		padding-bottom: 250px 
+	.container2-1 
+		padding: 3em 
+		margin: 4rem 0 0 0 
+		justify-content: center 
+		min-height: 100% 
+		padding-bottom: 250px 
+		grid-gap: 2em 
+@media screen and (max-width: 899px)
+	#container2 
+		min-height: 100% 
+	.container2-1 
+		justify-content: center 
+		min-height: 100%  
+		grid-gap: 2em 
