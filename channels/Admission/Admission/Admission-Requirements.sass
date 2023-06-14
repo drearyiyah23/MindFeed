@@ -34,18 +34,21 @@
         background-color: #cdcdcd
         flex-direction: column
         overflow: hidden
-        div
+        .admission-container
             display: grid
-            grid-template-columns: 1fr1fr
+            grid-template-columns: 1fr
             background-color: #ffffff
             margin: 20px 0
+            
             ul  
-                margin: 0              
+                margin: 0
+                              
                 div
                     @include phone-font()
-                    display: flex
+                    display: none
                     font-size: 20px
                     font-weight: 700
+                    
                     
                     div
                         
@@ -66,28 +69,35 @@
                     .grade-other
                         width: 0
                         border: 1px solid brown
-
-                .margin
-                    display: flex
-                    text-align: center
-                    margin-bottom: 50px
                 li
-                    margin: 5px
-                    @include phone-font()
-                    font-size: 25px
-                    width: 70%
-                    font-weight: 600
-
+                                margin: 5px
+                                @include phone-font()
+                                font-size: 18px
+                                width: 70%
+                                font-weight: 600
             div
                 @include phone-font()
                 display: grid
                 grid-template-columns: 1fr1fr
                 place-items: center
-                
+                font-size: 20px
+                margin: 40px 20px 20px 20px
+                font-weight: 700
+                text-align: center
+                font-family: 'Times New Roman', Times, serif
                 h2
                     color: #db3e3e
                 h3
-                    width: 70%
+                    width: 90%
+                    font-size: 19px
+                    font-family: Arial, Helvetica, sans-serif
+        .margin
+            
+            text-align: center
+            margin-bottom: 50px
+            
+
+            
                 
                     
 @mixin font()
@@ -170,7 +180,8 @@
                     font-size: 25px
                     width: 70%
                     font-weight: 600
-
+            .phone
+                display: none
             div
                 @include font()
                 display: grid

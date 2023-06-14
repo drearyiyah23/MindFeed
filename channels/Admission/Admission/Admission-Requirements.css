@@ -33,67 +33,73 @@
     flex-direction: column;
     overflow: hidden;
   }
-  main div {
+  main .admission-container {
     display: grid;
-    grid-template-columns: 1fr1fr;
+    grid-template-columns: 1fr;
     background-color: #ffffff;
     margin: 20px 0;
   }
-  main div ul {
+  main .admission-container ul {
     margin: 0;
   }
-  main div ul div {
+  main .admission-container ul div {
     font-family: "Times New Roman", Times, serif;
-    display: flex;
+    display: none;
     font-size: 20px;
     font-weight: 700;
   }
-  main div ul div div {
+  main .admission-container ul div div {
     border-radius: 5px;
   }
-  main div ul div .grade-7 {
+  main .admission-container ul div .grade-7 {
     width: 0;
     border: 1px solid lime;
   }
-  main div ul div .grade-11 {
+  main .admission-container ul div .grade-11 {
     width: 0;
     border: 1px solid violet;
   }
-  main div ul div .grade-12 {
+  main .admission-container ul div .grade-12 {
     width: 0;
     border: 1px solid orange;
   }
-  main div ul div .grade-other12 {
+  main .admission-container ul div .grade-other12 {
     width: 0;
     border: 1px solid orange;
   }
-  main div ul div .grade-other {
+  main .admission-container ul div .grade-other {
     width: 0;
     border: 1px solid brown;
   }
-  main div ul .margin {
-    display: flex;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  main div ul li {
+  main .admission-container ul li {
     margin: 5px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: 18px;
     width: 70%;
     font-weight: 600;
   }
-  main div div {
+  main .admission-container div {
     font-family: "Times New Roman", Times, serif;
     display: grid;
     grid-template-columns: 1fr1fr;
     place-items: center;
+    font-size: 20px;
+    margin: 40px 20px 20px 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
   }
-  main div div h2 {
+  main .admission-container div h2 {
     color: #db3e3e;
   }
-  main div div h3 {
-    width: 70%;
+  main .admission-container div h3 {
+    width: 90%;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  main .margin {
+    text-align: center;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -180,6 +186,9 @@
     font-size: 25px;
     width: 70%;
     font-weight: 600;
+  }
+  main div .phone {
+    display: none;
   }
   main div div {
     font-family: "Times New Roman", Times, serif;
