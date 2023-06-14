@@ -42,7 +42,6 @@ header {
   z-index: 9;
   top: 30px;
   width: 100vw;
-  padding: 10px 0 10px;
 }
 
 /* (phone) about us style start*/
@@ -334,6 +333,9 @@ nav a {
 }
 /* Phone Style Start */
 @media screen and (max-width: 899px) {
+  .spaces {
+    display: none;
+  }
   .timer {
     margin: 0;
     padding: 0;
@@ -372,11 +374,7 @@ nav a {
   .timer .timer-right .e-mail {
     color: black;
   }
-  .timer .timer-right .spaces {
-    display: none;
-  }
   #container {
-    position: -webkit-sticky;
     position: sticky;
     top: 0px;
     height: 50vh;

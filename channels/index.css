@@ -1,14 +1,17 @@
 #container .container-1 .banner {
   height: 50vh;
   z-index: 1;
+  background-color: black;
 }
 #container .container-1 .banner .first {
   height: 49vh;
+  opacity: 80%;
 }
 #container .container-1 .logos {
+  width: 20px;
   display: flex;
   position: absolute;
-  top: 40%;
+  top: 100px;
   left: 43%;
   justify-content: center;
   background-color: white;
@@ -19,12 +22,12 @@
   border-radius: 100%;
 }
 #container .container-1 .logos img {
-  width: 70px;
+  width: 50px;
 }
 #container .container-1 .name {
   display: flex;
   position: absolute;
-  top: 25%;
+  top: 120px;
   justify-content: center;
   font-weight: 800;
   color: #fff8f8;
@@ -38,7 +41,7 @@
 #container .container-1 .slogan {
   display: flex;
   position: absolute;
-  top: 47%;
+  top: 150px;
   justify-content: center;
   font-weight: 800;
   color: #fff8f8;
@@ -117,13 +120,13 @@ main .shs-update {
 }
 main .shs-update .shs-click {
   background-color: rgba(197, 76, 76, 0.3450980392);
-  opacity: 100;
+  opacity: 0;
   display: flex;
   position: absolute;
   bottom: 4vh;
   left: 9vw;
   height: 3vh;
-  width: 12vh;
+  width: calc(45px + 10vw);
   border-radius: 20px;
 }
 main .shs-update img {
@@ -168,10 +171,9 @@ main .fr1-2 {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 70vh;
 }
 main .fr1-2 iframe {
-  width: 60vw;
+  width: 100%;
   aspect-ratio: 16/9;
 }
 main .fr1-3 {
@@ -343,14 +345,15 @@ main .red .event .event-1 {
 main .red .event .event-2 {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10% 0;
+  gap: 50px 0;
+  height: 550px;
 }
 main .red .event .event-2 .event-box {
   display: grid;
   grid-template-columns: 1fr 3fr;
   background-color: grey;
   width: auto;
-  height: 100px;
+  height: 70px;
 }
 main .red .event .event-2 .event-box .event-date {
   display: flex;
@@ -358,7 +361,7 @@ main .red .event .event-2 .event-box .event-date {
   padding: 15px;
   font-weight: 600;
   font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-size: 20px;
   padding: 5px;
   text-align: center;
   align-items: center;
@@ -375,29 +378,32 @@ main .red .event .event-2 .event-box .event-text {
   font-family: "Times New Roman", Times, serif;
   background-color: white;
   padding: 5px;
+  height: 70px;
 }
 main .red .event .event-3 {
   display: flex;
   height: 100px;
+  justify-content: center;
+  align-items: center;
 }
 main .red .event .event-3 .event-link {
-  position: absolute;
-  right: 47%;
-  padding: 10px;
   background-color: black;
   color: white;
+  height: 40px;
   border-radius: 20px;
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  bottom: 900px;
-  right: 7%;
+  align-items: center;
+  display: flex;
+  width: 260px;
+  justify-content: center;
 }
 main .red .announcement {
   opacity: 1;
   z-index: 1;
   color: black;
-  margin: 40% 5% 20% 5%;
+  margin: 0% 5% 20% 5%;
 }
 main .red .announcement .announcement-1 {
   color: white;
@@ -412,14 +418,15 @@ main .red .announcement .announcement-1 {
 main .red .announcement .announcement-2 {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10% 0;
+  gap: 50px 0;
+  height: 550px;
 }
 main .red .announcement .announcement-2 .announcement-box {
   display: grid;
   grid-template-columns: 1fr 3fr;
   background-color: grey;
   width: auto;
-  height: 100px;
+  height: 70px;
 }
 main .red .announcement .announcement-2 .announcement-box .announcement-date {
   display: flex;
@@ -427,7 +434,7 @@ main .red .announcement .announcement-2 .announcement-box .announcement-date {
   padding: 15px;
   font-weight: 600;
   font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-size: 20px;
   padding: 5px;
   text-align: center;
   align-items: center;
@@ -444,23 +451,26 @@ main .red .announcement .announcement-2 .announcement-box .announcement-text {
   font-family: "Times New Roman", Times, serif;
   background-color: white;
   padding: 5px;
+  height: 70px;
 }
 main .red .announcement .announcement-3 {
   display: flex;
   height: 100px;
+  justify-content: center;
+  align-items: center;
 }
 main .red .announcement .announcement-3 .announcement-link {
-  position: absolute;
-  right: 47%;
-  padding: 10px;
   background-color: black;
   color: white;
+  height: 40px;
   border-radius: 20px;
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  bottom: 20px;
-  right: 2%;
+  align-items: center;
+  display: flex;
+  width: 400px;
+  justify-content: center;
 }
 main .google-map {
   width: 100vw;
@@ -474,14 +484,12 @@ main .google-map .google-pic {
 
 @media screen and (min-width: 900px) {
   #container {
-    position: -webkit-sticky;
     position: sticky;
     top: 17px;
     height: 100vh;
     z-index: -1;
   }
   #container .container-1 {
-    position: -webkit-sticky;
     position: sticky;
     height: 100vh;
   }

@@ -45,7 +45,6 @@ header
   z-index: 9
   top: 30px
   width: 100vw
-  padding: 10px 0 10px
 /* (phone) about us style start*/
 
 .op:focus-within .drop-down
@@ -295,27 +294,29 @@ nav
           p  
             color: white
 @media screen and (min-width: 900px)
-   .timer-right
-      display: flex
-      flex-wrap: nowrap
-      font-size: 14px
-      font-weight: 700
-      font-family: 'Times New Roman', Times, serif
-      display: flex
-      justify-content: right
-      padding-right:20px
-      .fb
-        right: 70px
-      .ig
-        color: red
-        right: 50px
-      .e-mail
-        color: black
-        right: 23px
+  .timer-right
+    display: flex
+    flex-wrap: nowrap
+    font-size: 14px
+    font-weight: 700
+    font-family: 'Times New Roman', Times, serif
+    display: flex
+    justify-content: right
+    padding-right:20px
+    .fb
+      right: 70px
+    .ig
+      color: red
+      right: 50px
+    .e-mail
+      color: black
+      right: 23px
     
 /* Phone Style Start */
 
 @media screen and (max-width: 899px)
+  .spaces
+   display: none
   .timer
     margin: 0
     padding: 0
@@ -348,8 +349,7 @@ nav
         color: red
       .e-mail
         color: black
-      .spaces
-        display: none
+
   #container
     position: sticky
     top: 0px

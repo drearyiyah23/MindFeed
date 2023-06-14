@@ -3,7 +3,6 @@
     top: 17px;
     height: 80vh;
     z-index: -1;
-    position: -webkit-sticky;
     position: sticky;
     height: 80vh;
   }
@@ -102,7 +101,6 @@
     top: 17px;
     height: 80vh;
     z-index: -1;
-    position: -webkit-sticky;
     position: sticky;
     height: 80vh;
   }

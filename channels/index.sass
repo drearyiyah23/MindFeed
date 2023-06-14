@@ -29,6 +29,15 @@
   font-size: 20px
   font-weight: 600
 
+@mixin phone-link()
+  background-color: black
+  color: white
+  height: 40px
+  border-radius: 20px
+  text-decoration: none
+  font-size: 20px
+  font-weight: 600
+
 @mixin phone-title-font()
   display: flex
   justify-content: center
@@ -51,12 +60,15 @@
     .banner
       height: 50vh
       z-index: 1
+      background-color: black
       .first
         height: 49vh
+        opacity: 80%
     .logos
+      width: 20px
       display: flex
       position: absolute
-      top: 40%
+      top: 100px
       left: 43%
       justify-content: center
       background-color: white
@@ -66,11 +78,11 @@
       width: auto
       border-radius: 100%
       img
-        width: 70px
+        width: 50px
     .name
       display: flex
       position: absolute
-      top: 25%
+      top: 120px
       justify-content: center
       font-weight: 800
       color: #fff8f8
@@ -83,7 +95,7 @@
     .slogan
       display: flex
       position: absolute
-      top: 47%
+      top: 150px
       justify-content: center
       font-weight: 800
       color: #fff8f8
@@ -157,13 +169,13 @@ main
     justify-content: center
     .shs-click
       background-color: #c54c4c58
-      opacity: 100
+      opacity: 00
       display: flex
       position: absolute
       bottom: 4vh
       left: 9vw
       height: 3vh
-      width: 12vh
+      width: calc( 45px + 10vw  )
       border-radius: 20px
     img
       width: 100vw    
@@ -201,9 +213,9 @@ main
     justify-content: center
     align-items: center
     position: relative
-    height: 70vh
+    
     iframe
-      width: 60vw
+      width: 100%
       aspect-ratio: 16/9
 
   .fr1-3
@@ -345,16 +357,17 @@ main
       .event-2
         display: grid
         grid-template-columns: 1fr
-        gap: 10% 0
+        gap: 50px 0
+        height: 550px
         .event-box
           display: grid
           grid-template-columns: 1fr 3fr
           background-color: grey
           width: auto
-          height: 100px
+          height: 70px
           .event-date
             @include phone-title-font()
-            font-size: 24px
+            font-size: 20px
             padding: 5px
             text-align: center
             align-items: center
@@ -362,19 +375,24 @@ main
             @include phone-small-font()
             background-color: white
             padding: 5px
+            height: 70px
           
       .event-3
         display: flex
         height: 100px
+        justify-content: center
+        align-items: center
         .event-link
-          @include link()
-          bottom: 900px
-          right: 7%
+          @include phone-link()
+          align-items: center
+          display: flex
+          width: 260px
+          justify-content: center
     .announcement
       opacity: 1
       z-index: 1
       color: black
-      margin: 40% 5%20% 5%
+      margin: 0% 5%20% 5%
       .announcement-1
         color: white
         margin: 30px 0
@@ -383,16 +401,17 @@ main
       .announcement-2
         display: grid
         grid-template-columns: 1fr
-        gap: 10% 0
+        gap: 50px 0
+        height: 550px
         .announcement-box
           display: grid
           grid-template-columns: 1fr 3fr
           background-color: grey
           width: auto
-          height: 100px
+          height: 70px
           .announcement-date
             @include phone-title-font()
-            font-size: 24px
+            font-size: 20px
             padding: 5px
             text-align: center
             align-items: center
@@ -400,14 +419,18 @@ main
             @include phone-small-font()
             background-color: white
             padding: 5px
+            height: 70px
       .announcement-3
         display: flex
         height: 100px
+        justify-content: center
+        align-items: center
         .announcement-link
-          @include link()
-          
-          bottom: 20px
-          right: 2%
+          @include phone-link()
+          align-items: center
+          display: flex
+          width: 400px
+          justify-content: center
   .google-map
     width: 100vw
     

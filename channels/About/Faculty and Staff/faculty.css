@@ -87,8 +87,7 @@ main .accordion .accordion-item .accordion-body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -ms-scroll-snap-type: x proximity;
-      scroll-snap-type: x proximity;
+  scroll-snap-type: x proximity;
   position: relative;
 }
 main .accordion .accordion-item .accordion-body img {
