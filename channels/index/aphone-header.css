@@ -384,15 +384,30 @@ nav a {
     position: absolute;
     height: 52vh;
   }
-  #container .banner {
-    height: 88vh;
+  #container .container-1 .banner {
+    height: 50vh;
     z-index: 1;
   }
-  #container .first {
+  #container .container-1 .banner .first {
     width: 100vw;
     height: 50vh;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  #container .container-1 .banner2 {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    justify-content: center;
+    font-weight: 800;
+    color: #fff8f8;
+    font-family: "Trirong";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 71px;
+    text-align: center;
+    width: 100%;
   }
   .frame {
     background-color: #fff8f8;

@@ -1,9 +1,17 @@
+@media screen and (min-width: 900px) {
+  #container {
+    height: 60vh;
+  }
+  main {
+    margin: 100px 0 0 0;
+  }
+}
 #container {
-  height: 60vh;
+  height: 50vh;
 }
 
 main {
-  margin: 100px 0 0 0;
+  margin: 0 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
