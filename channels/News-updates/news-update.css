@@ -47,7 +47,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #f3f3f3;
-    padding: 50px 0;
+    padding: 100px 0;
     gap: 30px;
   }
   main .news-flex {
@@ -61,16 +61,16 @@
   }
   main .news-flex .news-card {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
     height: auto;
   }
   main .news-flex .news-card .news-pic {
     display: flex;
     justify-content: center;
-    height: 430px;
+    height: 60vw;
   }
   main .news-flex .news-card .news-pic img {
-    width: 85vw;
+    width: 60vw;
     border-radius: 4%;
     margin-top: 20px;
     -o-object-fit: cover;
