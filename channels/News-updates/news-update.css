@@ -17,6 +17,29 @@
     width: 45%;
     margin: 20px;
   }
+  .news-flex .news-cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+  }
+  .news-flex .news-cards .news-pic {
+    display: flex;
+    justify-content: center;
+    height: 430px;
+  }
+  .news-flex .news-cards .news-pic img {
+    border-radius: 4%;
+    margin-top: 20px;
+    width: 430px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .news-flex .news-cards .news-text {
+    display: flex;
+    text-align: center;
+    height: auto;
+    margin: 50px 0 40px 0;
+  }
   .news-flex .news-card {
     display: grid;
     grid-template-rows: 1fr 1fr;
