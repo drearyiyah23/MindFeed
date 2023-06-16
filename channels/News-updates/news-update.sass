@@ -50,10 +50,12 @@
             align-items: center
             background-color: #dbdbdb
             height: auto
-            .news-card
+            margin: 20px
+            
+            .news-cards
                 display: grid
-                grid-template-rows: 1fr 1.5fr
-                height: auto
+                grid-template-rows: 1fr 1.7fr
+                align-items: center
                 .news-pic
                     
                     display: flex
@@ -68,4 +70,26 @@
                     display: flex
                     text-align: center
                     height: auto
-                    margin: 50px 0 40px 0
+                    font-size: 15px
+                    margin: 0px 10px 10px 10px
+            .news-card
+                display: grid
+                grid-template-rows: 1fr 1fr
+                height: auto
+                align-items: center
+                .news-pic
+                    
+                    display: flex
+                    justify-content: center
+                    height: 60vw
+                    img
+                        width: 60vw
+                        border-radius: 4%
+                        margin-top: 20px
+                        object-fit: cover
+                .news-text
+                    display: flex
+                    text-align: center
+                    height: auto
+                    font-size: 15px
+                    margin: 0px 10px 10px 10px
