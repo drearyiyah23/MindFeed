@@ -58,11 +58,13 @@
     align-items: center;
     background-color: #dbdbdb;
     height: auto;
+    margin: 20px;
   }
   main .news-flex .news-card {
     display: grid;
     grid-template-rows: 1fr 1.5fr;
     height: auto;
+    align-items: center;
   }
   main .news-flex .news-card .news-pic {
     display: flex;
@@ -80,6 +82,7 @@
     display: flex;
     text-align: center;
     height: auto;
-    margin: 50px 0 40px 0;
+    font-size: 17px;
+    margin: 50px 10px 40px 10px;
   }
 }/*# sourceMappingURL=news-update.css.map */
